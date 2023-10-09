@@ -39,6 +39,7 @@ else:
     # print("prediction : ",prediction)
     if np.argmax(prediction) == 0:
         st.write("Hasil Terdeteksi: Amomi Fructus/Kapulaga")
+        st.write("Indikasi Kegunaan: \n 1. Membantu pencernaan, meredakan perut kembung, mual, dan muntah. \n 2. Mengatasi masalah pernapasan seperti batuk dan sesak napas. \n 3. Memberikan efek relaksasi pada tubuh. \n 4. Memberikan rasa dan aroma khas pada makanan dan minuman.")
     elif np.argmax(prediction) == 1:
         st.write("Hasil Terdeteksi: Capsici Frutescentis Fructus/Cabai Rawit")
     elif np.argmax(prediction) == 2:
