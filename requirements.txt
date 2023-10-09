@@ -1,0 +1,5 @@
+tensorflow
+streamlit
+numpy
+Pillow==9.5.0
+scikit-image
