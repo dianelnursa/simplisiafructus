@@ -18,7 +18,7 @@ def import_and_predict(image_data, model):
     return prediction
 
 
-model = tf.keras.models.load_model("VGG16-fructus.h5")
+model = tf.keras.models.load_model("Xception-fructus-97.29.h5")
 
 st.write(
     """
