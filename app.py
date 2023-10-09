@@ -54,4 +54,4 @@ else:
         st.write("Indikasi Kegunaan: \n 1. Penyedap alami dalam masakan. \n 2. Membantu pencernaan dan meredakan perut kembung \n 3. Meredakan masalah pernapasan seperti pilek dan batuk. \n 4. Mengatasi peradangan dalam tubuh. \n 5. Meningkatkan sistem kekebalan tubuh.")
     elif np.argmax(prediction) == 6:
         st.write("Hasil Terdeteksi: Tamarindus Indicia Fructus/Asam Jawa")
-        
+        st.write("Indikasi Kegunaan: \n 1. Meredakan masalah pencernaan seperti sembelit dan perut kembung. \n 2. Sumber antioksidan dan vitamin C. \n 3. Pemanis alami dalam makanan dan minuman. \n 4. Bumbu dapur berbagai hidangan kuliner.")
