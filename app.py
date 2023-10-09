@@ -16,7 +16,7 @@ def import_and_predict(image_data, model):
     prediction = model.predict(img_reshape)
 
     return prediction
-    accuracy = np.concatenate(prediction) * 100
+    accuracy = np.max(prediction) * 100
 
 model = tf.keras.models.load_model("Xception-fructus-97.29.h5")
 
@@ -36,7 +36,7 @@ else:
     image = Image.open(file)
     st.image(image, use_column_width=True)
     prediction = import_and_predict(image, model)
-    akurasi = import_and_predict(accuracy, model)
+    accuracy = import_and_predict(image, model)
     # print("prediction : ",prediction)
     if np.argmax(prediction) == 0:
         st.write("Hasil Terdeteksi: Amomi Fructus/Kapulaga")
