@@ -51,6 +51,7 @@ else:
         st.write("Hasil Terdeteksi: Piperis Albi Fructus/Lada Putih")
     elif np.argmax(prediction) == 5:
         st.write("Hasil Terdeteksi: Piperis Nigri Fructus/Lada Hitam")
+        st.write("Indikasi Kegunaan: \n 1. Penyedap alami dalam masakan. \n 2. Membantu pencernaan dan meredakan perut kembung \n 3. Meredakan masalah pernapasan seperti pilek dan batuk. \n 4. Mengatasi peradangan dalam tubuh. \n 5. Meningkatkan sistem kekebalan tubuh.")
     elif np.argmax(prediction) == 6:
         st.write("Hasil Terdeteksi: Tamarindus Indicia Fructus/Asam Jawa")
         
