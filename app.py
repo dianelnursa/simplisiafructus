@@ -38,7 +38,7 @@ else:
     prediction = import_and_predict(image, model)
     # print("prediction : ",prediction)
     if np.argmax(prediction) == 0:
-        st.write("Hasil Terdeteksi: Piperis Nigri Fructus/Lada Hitam")
+        st.write("Hasil Terdeteksi: Amomi Fructus/Kapulaga")
     elif np.argmax(prediction) == 1:
         st.write("Hasil Terdeteksi: Piperis Albi Fructus/Lada Putih")
     elif np.argmax(prediction) == 2:
@@ -46,6 +46,6 @@ else:
     elif np.argmax(prediction) == 3:
         st.write("Hasil Terdeteksi: Cumini Fructus/Jinten")
     elif np.argmax(prediction) == 4:
-        st.write("Hasil Terdeteksi: Amomi Fructus/Kapulaga")
+        st.write("Hasil Terdeteksi: Piperis Nigri Fructus/Lada Hitam")
     elif np.argmax(prediction) == 5:
         st.write("Hasil Terdeteksi: Capsici Frutescentis Fructus/Cabai Rawit")
