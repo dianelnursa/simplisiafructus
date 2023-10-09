@@ -45,6 +45,7 @@ else:
         st.write("Hasil Terdeteksi: Cumini Fructus/Jinten")
     elif np.argmax(prediction) == 3:
         st.write("Hasil Terdeteksi: Piper Retrofractum Fructus/Cabai Jawa")
+        st.write("Indikasi Kegunaan: \n 1. Membantu meredakan gejala masuk angin seperti mual, muntah dan perut kembung. \n 2. Membantu meredakan sakit kepala dan nyeri otot Meningkatkan nafsu makan, stimulan kesehatan dan tonik
     elif np.argmax(prediction) == 4:
         st.write("Hasil Terdeteksi: Piperis Albi Fructus/Lada Putih")
     elif np.argmax(prediction) == 5:
