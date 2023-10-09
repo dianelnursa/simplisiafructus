@@ -10,3 +10,5 @@ variabel data yang dikembangkan pada aplikasinya ini meliputi citra
 6. Capsici Frutescentis Fructus (Cabai Rawit)
 akses melalui : https://deteksifructus.streamlit.app/
 ![Screenshot_2023-10-09-21-30-40-26_40deb401b9ffe8e1df2f1cc5ba480b12](https://github.com/dianelnursa/simplisiafructus/assets/85501002/d16a0656-d45f-4364-b292-6cca3ebf53de)
+
+![Screenshot_2023-10-09-22-24-25-66_40deb401b9ffe8e1df2f1cc5ba480b12](https://github.com/dianelnursa/simplisiafructus/assets/85501002/ccd6b186-c993-4710-93dc-9cbaf79c4a8f)
