@@ -40,7 +40,7 @@ else:
     if np.argmax(prediction) == 0:
         st.write("Hasil Terdeteksi: Amomi Fructus/Kapulaga")
     elif np.argmax(prediction) == 1:
-        st.write("Hasil Terdeteksi: Piperis Nigri Fructus/Lada Hitam")
+        st.write("Hasil Terdeteksi: Capsici Frutescentis Fructus/Cabai Rawit")
     elif np.argmax(prediction) == 2:
         st.write("Hasil Terdeteksi: Cumini Fructus/Jinten")
     elif np.argmax(prediction) == 3:
@@ -50,4 +50,4 @@ else:
     elif np.argmax(prediction) == 5:
         st.write("Hasil Terdeteksi: Tamarindus Indicia Fructus/Asam Jawa")
     elif np.argmax(prediction) == 6:
-        st.write("Hasil Terdeteksi: Capsici Frutescentis Fructus/Cabai Rawit")
+        st.write("Hasil Terdeteksi: Piperis Nigri Fructus/Lada Hitam")
