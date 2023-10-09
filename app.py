@@ -16,7 +16,7 @@ def import_and_predict(image_data, model):
     prediction = model.predict(img_reshape)
 
     return prediction
-
+    accuracy = np.max(prediction) * 100
 
 model = tf.keras.models.load_model("Xception-fructus-97.29.h5")
 
@@ -29,7 +29,7 @@ st.write(
 st.write("Untuk mendeteksi jenis simplisia fructus berdasarkan bentuk")
 
 file = st.file_uploader("Silahkan upload gambar", type=["jpg", "png"])
-accuracy = np.max(prediction) * 100
+
 if file is None:
     st.text("Belum ada gambar")
 else:
@@ -44,7 +44,7 @@ else:
         st.write("Hasil Terdeteksi: Capsici Frutescentis Fructus/Cabai Rawit")
     elif np.argmax(prediction) == 2:
         st.write("Hasil Terdeteksi: Cumini Fructus/Jinten")
-    elif np.argmax(prediction) == 3:
+    elif np.argmax(prediction, accuracy) == 3:
         st.write("Hasil Terdeteksi: Piper Retrofractum Fructus/Cabai Jawa")
         st.write(f"Akurasi: {accuracy:.2f}%")
         st.write("Indikasi Kegunaan: \n 1. Membantu meredakan gejala masuk angin seperti mual, muntah dan perut kembung. \n 2. Membantu meredakan sakit kepala dan nyeri otot \n 3. Meningkatkan nafsu makan dan stimulan kesehatan dan tonik")
