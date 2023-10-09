@@ -16,7 +16,7 @@ def import_and_predict(image_data, model):
     prediction = model.predict(img_reshape)
 
     return prediction
-    accuracy = np.max(prediction) * 100
+    accuracy = np.concatenate(prediction) * 100
 
 model = tf.keras.models.load_model("Xception-fructus-97.29.h5")
 
