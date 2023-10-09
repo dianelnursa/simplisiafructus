@@ -49,3 +49,5 @@ else:
         st.write("Hasil Terdeteksi: Piperis Nigri Fructus/Lada Hitam")
     elif np.argmax(prediction) == 5:
         st.write("Hasil Terdeteksi: Capsici Frutescentis Fructus/Cabai Rawit")
+    elif np.argmax(prediction) == 6:
+        st.write("Hasil Terdeteksi: Tamarindus Indicia Fructus/Asam Jawa")
