@@ -43,6 +43,7 @@ else:
         st.write("Hasil Terdeteksi: Capsici Frutescentis Fructus/Cabai Rawit")
     elif np.argmax(prediction) == 2:
         st.write("Hasil Terdeteksi: Cumini Fructus/Jinten")
+        st.write("Indikasi Kegunaan: \n 1. Membantu pencernaan dan meredakan masalah perut. \n 2. Digunakan sebagai penyedap alami dalam berbagai hidangan. \n 3. Mengandung senyawa sehat seperti antioksidan. \n 4. Digunakan dalam tradisi pengobatan alternatif untuk beberapa masalah kesehatan.")
     elif np.argmax(prediction) == 3:
         st.write("Hasil Terdeteksi: Piper Retrofractum Fructus/Cabai Jawa")
         st.write("Indikasi Kegunaan: \n 1. Membantu meredakan gejala masuk angin seperti mual, muntah dan perut kembung. \n 2. Membantu meredakan sakit kepala dan nyeri otot \n 3. Meningkatkan nafsu makan dan stimulan kesehatan dan tonik")
