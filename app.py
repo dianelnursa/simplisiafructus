@@ -25,7 +25,7 @@ st.write(
          """
 )
 
-st.write("Untuk mendeteksi jenis simplisia fructus berdasarkan bentuknya. Aplikasi saat ini terbatas hanya dapat mendeteksi 7 jenis simplisia fructus  meliputi: \n (1) amomi fructus/kapulaga \n (2) cumini fructus/jinten \n (3) piperis albi ftuctus/lada putih \n (4) piperis nigri fructus/lada hitam \n (5) piper retrofractum fructus/cabai jawa \n (6) tamarindus indicia fructus/asam jawa \n (7) capsici frutescentis fructus/ cabai rawit.")
+st.write("Untuk mendeteksi jenis simplisia fructus berdasarkan bentuknya. Aplikasi saat ini terbatas hanya dapat mendeteksi 7 jenis simplisia fructus  meliputi: \n (1) Amomi Fructus/Kapulaga \n (2) Cumini Fructus/Jinten \n (3) Piperis Albi Ftuctus/Lada Putih \n (4) Piperis Nigri Fructus/Lada Hitam \n (5) Piper Retrofractum Fructus/Cabai Jawa \n (6) Tamarindus Indicia Fructus/Asam Jawa \n (7) Capsici Frutescentis Fructus/ Cabai Rawit.")
 
 file = st.file_uploader("Silahkan upload gambar", type=["jpg", "png"])
 
